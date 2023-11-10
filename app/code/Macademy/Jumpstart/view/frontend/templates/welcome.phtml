@@ -1,0 +1,9 @@
+<?php
+
+/** @var \Macademy\Jumpstart\ViewModel\WelcomeMessage $welcomeMessageViewModel */
+/** @var \Magento\Framework\View\Element\Template $block */
+$welcomeMessageViewModel = $block->getData('welcome_message_view_model');
+
+?>
+
+<h1><?= $welcomeMessageViewModel->getWelcomeMessage() ?> </h1>
